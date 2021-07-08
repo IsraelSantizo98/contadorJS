@@ -10,3 +10,22 @@ body{
     align-items: center;
     height: 100vh;
 }
+.container{
+    width: 150px;
+    height: 150px;
+    background-color:#185ad8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    border: radius 15px;
+}
+.counter{
+    font-size: 4rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.heading{
+    font-family: 'Poppins', sans-serif;
+}
